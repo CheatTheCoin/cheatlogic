@@ -1,0 +1,21 @@
+
+body {
+    background: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.title {
+    color: orange;
+}
+.card {
+    background: #1e1e1e;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+.green {
+    color: lightgreen;
+}
