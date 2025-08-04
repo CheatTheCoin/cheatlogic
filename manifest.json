@@ -1,0 +1,15 @@
+{
+  "name": "CHEATSHEET Dashboard",
+  "short_name": "CHEATSHEET",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#FF9900",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

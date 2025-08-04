@@ -1,0 +1,12 @@
+body {
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+h1 {
+  color: orange;
+}
