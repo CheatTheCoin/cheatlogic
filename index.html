@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHEATSHEET Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <div id="visual-indicator" class="indicator-box">
+            <h2 id="main-status">Analyzing...</h2>
+            <p id="status-description">We help you act smart — not fast.</p>
+            <small id="status-note">This tool is not financial advice. Always keep funds for future dips.</small>
+        </div>
+        <div class="tabs">
+            <button onclick="showTab('tab1')">24h</button>
+            <button onclick="showTab('tab2')">7d</button>
+            <button onclick="showTab('tab3')">30d</button>
+        </div>
+        <div id="tab1" class="tab-content active"></div>
+        <div id="tab2" class="tab-content"></div>
+        <div id="tab3" class="tab-content"></div>
+        <button id="info-button" onclick="showInfo()">ℹ️</button>
+        <div id="info-popup" style="display:none;">
+            <p>This dashboard shows market recommendations based on price action. It helps identify smart buying opportunities and overall market momentum — not financial advice.</p>
+        </div>
+    </div>
+</body>
+</html>
